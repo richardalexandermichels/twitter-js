@@ -8,7 +8,7 @@ app.use( logger('dev') );
 console.log('server on')
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello earth!');
 });
 app.get('/any', function (req, res) {
   res.send('Hello any!');
